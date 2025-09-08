@@ -1,5 +1,5 @@
 <h1 align="center">Culture_Place</h1>
-<center>서울시 문화예술 정보 공유 플랫폼</center>
+<p align="center">서울시 문화예술 정보 공유 플랫폼</p>
 
 <br><br>
 
