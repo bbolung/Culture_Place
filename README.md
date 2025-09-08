@@ -1,6 +1,8 @@
 # Culture_Place
 서울시 문화예술 정보 공유 플랫폼
 
+<br>
+
 ## 📌 목차
 1. [프로젝트 소개](#-프로젝트-소개)
 2. [팀원 소개](#-팀원-소개)
@@ -8,6 +10,8 @@
 4. [다이어그램](#-다이어그램)
 5. [기능 설명](#-기능-설명)
 6. [개선 사항](#-개선-사항)
+
+<br>
 
 ## 📄 프로젝트 소개
 **Culture Place**는 서울시의 문화예술 정보를 제공하고 관람평 게시판을 통해 사용자들이 원하는 문화예술을 선택할 수 있도록 돕는 플랫폼입니다.
@@ -17,11 +21,15 @@
 
 개발 기간 : 2025.05.19 ~ 2025.05.23
 
+<br>
+
 ## 🙋 팀원 소개
 |노유경|오세희|차누리|
 |---|---|---|
 |<img src="images/profile_image.png" width="150px">|<img src="images/profile_image.png" width="150px">|<img src="images/profile_image.png" width="150px">|
 |공연·행사 목록 페이지<br>관람평 목록 페이지|관람평 상세/수정/삭제<br>댓글 기능|공연·행사 상세/수정/삭제<br>관람평 등록|
+
+<br>
 
 ## 🔧 개발 환경
 <div> 
@@ -50,6 +58,8 @@
   
 </div>
 
+<br>
+
 ## 📊 다이어그램
 <details>
   <summary>Usecase Diagram</summary>
@@ -66,15 +76,17 @@
 <details>
   <summary>Class Diagram</summary>
   <div markdown="1">
-    <h4>공연·행사 정보 페이지</h4>
+    <h4 style="color:#008080;">공연·행사 정보 페이지</h4>
     <img src="/images/Diagram/Class Diagram/List.jpg" >
     <img src="/images/Diagram/Class Diagram/Details.jpg" >
-    <h4>관람평 페이지</h4>
+    <h4 style="color:#008080;">관람평 페이지</h4>
     <img src="/images/Diagram/Class Diagram/Review_List.jpg" >
     <img src="/images/Diagram/Class Diagram/Review_Details.jpg" >
     <img src="/images/Diagram/Class Diagram/Review_register.jpg" >
   </div>
 </details>
+
+<br>
 
 ## 🔍 기능 설명
 <details>
@@ -99,10 +111,12 @@
     <br>
     <h4>관람평 상세 페이지</h4>
     <img src="/images/Pages/Review_Details.png" >
-    <div>
-     <img src="/images/Pages/Reply_register.png" style="display:inline-block; margin-right:10px;" >
-     <img src="/images/Pages/Reply_modify.png" style="display:inline-block;" >
-    </div>
+    <table>
+     <tr>
+     <td><img src="/images/Pages/Reply_register.png" width="200px" ></td>
+     <td><img src="/images/Pages/Reply_modify.png" width="200px" ></td>
+      </tr>
+    </table>
     <p>관람평에 대한 상세 정보를 확인할 수 있습니다.<br>하단에 댓글을 통해 사용자 간의 소통 공간을 구현하였습니다.<br>댓글은 AJAX 요청으로 구현하였고, 등록/수정/삭제는 modal창으로 구현하였습니다.<br>버튼을 클릭하면 게시글 수정/삭제 가능합니다.</p>
     <br>
     <h4>관람평 수정/삭제 페이지</h4>
@@ -115,6 +129,8 @@
     <br>
   </div>
 </details>
+
+<br>
 
 ## ⏳ 개선 사항
   * 진행상황, 코드리뷰 등 원활한 소통을 위한 협업 공간 (Notion, Slack 등) 필요
