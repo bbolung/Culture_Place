@@ -1,6 +1,4 @@
-<h1 align="center">🎭 Culture_Place 🎭 </h1>
-
-<br><br>
+# 🎭 Culture Place 🎭
 
 ## 📌 목차
 1. [프로젝트 소개](#-프로젝트-소개)
