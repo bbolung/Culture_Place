@@ -24,10 +24,23 @@
 <br>
 
 ## 🙋 팀원 소개
-|노유경|오세희|차누리|
-|---|---|---|
-|<img src="images/profile_image.png" width="150px">|<img src="images/profile_image.png" width="150px">|<img src="images/profile_image.png" width="150px">|
-|공연·행사 목록 페이지<br>관람평 목록 페이지|관람평 상세/수정/삭제<br>댓글 기능|공연·행사 상세/수정/삭제<br>관람평 등록|
+<table>
+ <tr>
+  <th>노유경</th>
+  <th>오세희</th>
+  <th>차누리</th>
+ </tr>
+ <tr>
+  <td align="center"><img src="images/profile_image.png" width="150px"></td>
+  <td align="center"><img src="images/profile_image.png" width="150px"></td>
+  <td align="center"><img src="images/profile_image.png" width="150px"></td>
+ </tr>
+ <tr>
+  <td>공연·행사 목록 페이지<br>관람평 목록 페이지</td>
+  <td>관람평 상세/수정/삭제<br>댓글 기능</td>
+  <td>공연·행사 상세/수정/삭제<br>관람평 등록</td>
+ </tr>
+</table>
 
 <br>
 
@@ -76,10 +89,11 @@
 <details>
   <summary>Class Diagram</summary>
   <div markdown="1">
-    <h4 style="color:#008080;">공연·행사 정보 페이지</h4>
+    <h4>1. 공연·행사 정보 페이지</h4>
     <img src="/images/Diagram/Class Diagram/List.jpg" >
     <img src="/images/Diagram/Class Diagram/Details.jpg" >
-    <h4 style="color:#008080;">관람평 페이지</h4>
+    <hr>
+    <h4>2. 관람평 페이지</h4>
     <img src="/images/Diagram/Class Diagram/Review_List.jpg" >
     <img src="/images/Diagram/Class Diagram/Review_Details.jpg" >
     <img src="/images/Diagram/Class Diagram/Review_register.jpg" >
@@ -94,11 +108,11 @@
   <div markdown="1">
     <h4>목록 페이지(main 페이지)</h4>
     <img src="/images/Pages/main_List.png" >
-    <p>공공 데이터 API를 활용하여 서울시에서 진행되고 있는 공연·행사 정보를 확인할 수 있습니다.<br>공연/행사명, 분류, 장소에 따라 원하는 공연·행사를 검색할 수 있습니다.</p>
+    <p><br>공공 데이터 API를 활용하여 서울시에서 진행되고 있는 공연·행사 정보를 확인할 수 있습니다.<br>공연/행사명, 분류, 장소에 따라 원하는 공연·행사를 검색할 수 있습니다.</p>
     <br>
     <h4>공연·행사 상세 페이지</h4>
     <img src="/images/Pages/Details.png" >
-    <p>공연·행사에 대한 상세 정보를 확인할 수 있습니다.<br>'리뷰 작성' 버튼 클릭 시 해당 공연·행사에 대한 관람평을 작성할 수 있습니다.</p>
+    <p><br>공연·행사에 대한 상세 정보를 확인할 수 있습니다.<br>'리뷰 작성' 버튼 클릭 시 해당 공연·행사에 대한 관람평을 작성할 수 있습니다.</p>
    <br>
   </div>
 </details>
@@ -107,25 +121,25 @@
   <div markdown="1">
     <h4>관람평 목록 페이지</h4>
     <img src="/images/Pages/Review_List2.png" >
-    <p>사용자들이 작성한 관람평 목록 페이지입니다.<br>공연/행사명, 작성자, 카테고리에 따라 원하는 공연·행사 관련 관람평을 검색할 수 있습니다.</p>
+    <p><br>사용자들이 작성한 관람평 목록 페이지입니다.<br>공연/행사명, 작성자, 카테고리에 따라 원하는 공연·행사 관련 관람평을 검색할 수 있습니다.</p>
     <br>
     <h4>관람평 상세 페이지</h4>
     <img src="/images/Pages/Review_Details.png" >
     <table>
      <tr>
-     <td><img src="/images/Pages/Reply_register.png" width="200px" ></td>
-     <td><img src="/images/Pages/Reply_modify.png" width="200px" ></td>
+     <td align="center"><img src="/images/Pages/Reply_register.png" width="250px" ></td>
+     <td align="center"><img src="/images/Pages/Reply_modify.png" width="250px" ></td>
       </tr>
     </table>
-    <p>관람평에 대한 상세 정보를 확인할 수 있습니다.<br>하단에 댓글을 통해 사용자 간의 소통 공간을 구현하였습니다.<br>댓글은 AJAX 요청으로 구현하였고, 등록/수정/삭제는 modal창으로 구현하였습니다.<br>버튼을 클릭하면 게시글 수정/삭제 가능합니다.</p>
+    <p><br>관람평에 대한 상세 정보를 확인할 수 있습니다.<br>하단에 댓글을 통해 사용자 간의 소통 공간을 구현하였습니다.<br>댓글은 AJAX 요청으로 구현하였고, 등록/수정/삭제는 modal창으로 구현하였습니다.<br>버튼을 클릭하면 게시글 수정/삭제 가능합니다.</p>
     <br>
     <h4>관람평 수정/삭제 페이지</h4>
     <img src="/images/Pages/Review_modify.png" >
-    <p>기존의 관람평의 공연/행사명과 내용을 수정할 수 있습니다.</p>
+    <p><br>기존의 관람평의 공연/행사명과 내용을 수정할 수 있습니다.</p>
     <br>
     <h4>관람평 등록 페이지</h4>
     <img src="/images/Pages/Review_register.png" >
-    <p>'공연 선택' 버튼 클릭 시 공연/행사명과 장소, 분류가 자동으로 입력됩니다.</p>
+    <p><br>'공연 선택' 버튼 클릭 시 공연/행사명과 장소, 분류가 자동으로 입력됩니다.</p>
     <br>
   </div>
 </details>
