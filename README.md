@@ -1,5 +1,5 @@
 <h1 align="center">Culture_Place</h1>
-서울시 문화예술 정보 공유 플랫폼
+<center>서울시 문화예술 정보 공유 플랫폼</center>
 
 <br><br>
 
@@ -127,8 +127,8 @@
     <img src="/images/Pages/Review_Details.png" >
     <table>
      <tr>
-     <td><center><img src="/images/Pages/Reply_register.png" width="300px" ></center>center></td>
-     <td><center><img src="/images/Pages/Reply_modify.png" width="300px" ></center>center></td>
+     <td><center><img src="/images/Pages/Reply_register.png" width="300px" ></center></td>
+     <td><center><img src="/images/Pages/Reply_modify.png" width="300px" ></center></td>
       </tr>
     </table>
     <p><br>관람평에 대한 상세 정보를 확인할 수 있습니다.<br>하단에 댓글을 통해 사용자 간의 소통 공간을 구현하였습니다.<br>댓글은 AJAX 요청으로 구현하였고, 등록/수정/삭제는 modal창으로 구현하였습니다.<br>버튼을 클릭하면 게시글 수정/삭제 가능합니다.</p>
