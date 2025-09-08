@@ -1,4 +1,4 @@
-# Culture_Place
+<h1 align="center">Culture_Place</h1>
 서울시 문화예술 정보 공유 플랫폼
 
 <br>
